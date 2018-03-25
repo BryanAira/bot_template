@@ -15,4 +15,8 @@ def indexs():
 
 
 if __name__ == '__main__':
+
+    with open('asfa.txt', 'w', encoding='utf-8') as f:
+        f.write('sssss')
+
     app.run()
