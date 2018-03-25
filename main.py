@@ -9,5 +9,10 @@ def index():
     return '<H1>Test Flask app</h1>'
 
 
+@app.route('/s')
+def indexs():
+    return '<H1>Test Flask app S</h1>'
+
+
 if __name__ == '__main__':
     app.run()
